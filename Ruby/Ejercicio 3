@@ -1,3 +1,5 @@
+# Autor Ronald Alfaro Hidalgo
+
 def obtenerNumAlto (arrayData)
   numeroAlto = 0
     for element in arrayData
