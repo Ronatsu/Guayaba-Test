@@ -1,0 +1,16 @@
+function operation(data) {
+  var result = 1;
+  var n = [];
+  for (j = 0; j < a.length; j++) {
+    for (i = 0; i < a.length; i++) {
+      if (a[j] != a[i]) {
+         result = result * a[i];
+      }
+    }
+    n.push(result);
+    result=1;
+  }
+  return n;
+}
+var a = [2, 3, 4, 6];
+console.log(operation(a));
