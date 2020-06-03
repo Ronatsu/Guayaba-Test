@@ -1,0 +1,12 @@
+def obtenerNumAlto (arrayData)
+  numeroAlto = 0
+    for element in arrayData
+      if element > numeroAlto
+        numeroAlto = element 
+      end
+    end
+  return numeroAlto
+end
+
+myArray = [13,2,4,35,1];
+puts (obtenerNumAlto(myArray))
