@@ -1,3 +1,10 @@
+
+/* 
+   Autor: Ronald Alfaro Hidalgo
+*/
+
+
+
 function operation(data) {
   var result = 1;
   var n = [];
